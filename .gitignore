@@ -14,6 +14,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+db.sqlite3
 MANIFEST
 
 # Django
@@ -23,7 +24,6 @@ MANIFEST
 *.pyo
 *.pyd
 *.sqlite3
-db.sqlite3
 *.db
 media/
 *.env
