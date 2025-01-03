@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Persona(models.Model):
+    id_persona = models.AutoField(primary_key=True)
     primer_nombre = models.CharField(max_length=50)
     segundo_nombre = models.CharField(max_length=50, blank=True)
     tercer_nombre = models.CharField(max_length=50, blank=True)
